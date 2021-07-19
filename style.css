@@ -1,0 +1,24 @@
+body {
+    display: flex;
+
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+}
+#leftmenu {
+    background-color: darkslategrey;
+}
+
+#middlemenu {
+    background-color:gray;
+
+}
+
+.card {
+    padding:1em;
+
+}
+
