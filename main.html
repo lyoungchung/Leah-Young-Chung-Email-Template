@@ -13,7 +13,7 @@
         <div class="row">
 
             <!--Left Menu-->
-          <div class="col" id="leftmenu">
+          <div class="col-2 col-sm-2 col-med-2" id="leftmenu">
             <div class="d-inline-flex" id="welcome">
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
               <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
@@ -34,7 +34,7 @@
           </div>
 
           <!--Inbox-->
-          <div class="col-4" id="middlemenu">
+          <div class="col-4 col col-sm-4 col-med-6" id="middlemenu">
               <!--search bar-->
               <div class="input-group mb-3">
                 <div class="input-group-prepend">
@@ -55,33 +55,47 @@
   
 
             <div class="card">
-              <h6>Email 1</h6>
-              <p>Whats for lunch?</p>
+              <div class="card-body">
+                <div class="sender col-6">Email 1</div>
+              <div class="time col-6">date/time</div>
+              <div class="email-body col-12">whats for lunch?</div>
+
             </div>
-            <br>
+          </div>
+          <br>
+    
 
             <div class="card" id="selectemail">
-              <h6>Email 2</h6>
-              <p>Dear Mrs. Danks, 
-                Thank you for being our</p>
+              <div class="card-body">
+              <div class="sender col-6">Email 2</div>
+              <div class="time col-6">date/time</div>
+              <div class="email-body">Dear M Danks, 
+                Thank you for being our </div>
             </div>
-            <br>
+          </div>
+          <br>
 
-            <div class="card">
-              <h6>Email 3</h6>
-              <p>Electricty bill</p>
-            </div>
+
+          <div class="card">
+            <div class="card-body">
+            <div class="sender col-6">Email 3</div>
+            <div class="time col-6">date/time</div>
+            <div class="email-body">Electricty Bill </div>
+          </div>
+        </div>
               </div>
 
           <!--Message box-->
-          <div class="col-6" id="rightmenu">
+          <div class="col-6 col col-sm-6 col-med-4" id="rightmenu">
               <div class="card">
+                <div class="card-body">
                 <h6>To: Mrs. Danks</h6>
                 <h6>From: Sweepstakes</h6>
               
                 <h3>Email 2</h3>
               <p>Dear Mrs. Danks, 
                   Thank you for being our 1000th customer.  Please submit your mailing address to collect your prize. </p>
+              </div>
               <form>
                 <div class="form-group">
                 <label for="exampleFormControlTextarea1"></label>

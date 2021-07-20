@@ -7,6 +7,7 @@ body {
 
 .container {
     margin: 0px;
+    flex-wrap: wrap;
 }
 
 #welcome {
@@ -25,6 +26,17 @@ body {
 
 #middlemenu {
     background-color: white;
+
+}
+
+.sender {
+    float: left;
+    font-weight: bold;
+
+
+}
+.time {
+    float: right;
 
 }
 
