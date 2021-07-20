@@ -1,24 +1,43 @@
 body {
     display: flex;
+    height:max-content;
+
 
 }
 
 .container {
-    width: 100vw;
-    height: 100vh;
     margin: 0px;
 }
+
+#welcome {
+    display:flex;
+    padding-top: 1em;
+}
 #leftmenu {
-    background-color: darkslategrey;
+    background-color: rgb(65, 70, 70);
+    height: 100vh;
+}
+
+#compose {
+    display:flex;
+    justify-self: right;
 }
 
 #middlemenu {
-    background-color:gray;
+    background-color: white;
 
 }
 
+#selectemail {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
 .card {
     padding:1em;
+    border:white;
 
+}
+
+#rightmenu {
+    background-color: whitesmoke;
 }
 
