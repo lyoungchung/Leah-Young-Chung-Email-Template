@@ -7,21 +7,24 @@ body {
 
 .container {
     margin: 0px;
-    flex-wrap: wrap;
+
 }
 
 #welcome {
     display:flex;
     padding-top: 1em;
 }
+
+
 #leftmenu {
     background-color: rgb(65, 70, 70);
     height: 100vh;
+    justify-content: center;
 }
 
 #compose {
     display:flex;
-    justify-self: right;
+    justify-items: right;
 }
 
 #middlemenu {
@@ -45,11 +48,12 @@ body {
 }
 .card {
     padding:1em;
-    border:white;
+    border: white;
 
 }
 
 #rightmenu {
     background-color: whitesmoke;
 }
+
 
