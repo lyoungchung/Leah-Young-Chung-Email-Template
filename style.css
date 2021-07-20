@@ -19,14 +19,19 @@ body {
 #leftmenu {
     background-color: rgb(65, 70, 70);
     height: 100vh;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 #compose {
-    display:flex;
-    justify-items: right;
+    align-self: center;
 }
 
+
+.left-column-margin {
+    display: flex;
+    flex-direction: column;
+}
 #middlemenu {
     background-color: white;
 
